@@ -1,0 +1,45 @@
+body{
+  background-image: url("../img/background.jpg");
+  height: 100%; 
+  background-size: cover;
+}
+.container {
+  position: relative;
+  z-Index: 1;
+  max-width: 470px;
+  margin: 200px auto 100px;
+  padding: 45px;
+  text-align: center;
+  align-items: center;
+  min-height: 100px;
+  background-color: white;
+  border-radius:9px
+}
+.title {
+  color:#22445D;
+  font-size: 62px;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+}
+.form-control{
+  margin-bottom: 8px;
+}
+.removido {
+  color: gray;
+}
+.removido label {
+  text-decoration: line-through;
+}
+.styled-button{
+  background-image: linear-gradient( to top, #42B983, #22445D);
+  border: 0;
+}
+ul li {
+  list-style-type: none;
+  text-align: start;
+}
+ul {
+  margin-top: 35px;
+  padding:0px;
+}
